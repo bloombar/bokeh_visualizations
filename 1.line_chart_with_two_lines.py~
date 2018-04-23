@@ -21,4 +21,4 @@ plot.line(x, y_2015, legend="2015 average temperature", line_color="red", line_w
 output_file("line_2.html", mode="inline")
 
 # show this figure in the default web browser
-show(plot)
+24 show(plot)
