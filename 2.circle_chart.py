@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bokeh.plotting import figure, output_file, show
 
 # prepare some data
@@ -12,7 +14,7 @@ plot = figure(title="Example of a scatter plot", x_axis_label="month", y_axis_la
 plot.circle(x, y, size=10, fill_color="orange")
 
 # output to static HTML file. 
-output_file("circles.html", mode="inline")
+output_file("2.circle_chart.html", mode="inline")
 
 #pop open in the browser
 show(plot)

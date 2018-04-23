@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 from bokeh.charts import Horizon, output_file, show
 
@@ -25,6 +27,6 @@ data = {
 p = Horizon(data, x='Date',
              title="Horizon plot using stock inputs")
 
-output_file("horizon.html")
+output_file("5.horizon_chart.html")
 
 show(p)

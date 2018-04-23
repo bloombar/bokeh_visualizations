@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bokeh.plotting import figure, show, output_file
 
 # create a simple plot
@@ -21,8 +23,8 @@ x = [0, 1, 2, 2.5, 3, 4.5]
 y = [1, 0, 0, 4, 1, 3]
 plot.line(x, y, line_color="#f8ce3a", line_width=10 )
 
-24 # save to a file
-25 output_file('image.html')
-26 
-27 # pop open the web browser
-28 show(plot)
+# save to a file
+output_file('1.line_chart_with_image.html')
+
+# pop open the web browser
+show(plot)

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bokeh.plotting import figure, output_file, show
 
 # prepare some data
@@ -18,7 +20,7 @@ plot.line(x, y_2015, legend="2015 average temperature", line_color="red", line_w
 # you could add more lines or other "renderer" elements to this same figure if you wanted
 
 # output to static HTML file. 
-output_file("line_2.html", mode="inline")
+output_file("1.line_chart_with_two_lines", mode="inline")
 
 # show this figure in the default web browser
-24 show(plot)
+show(plot)

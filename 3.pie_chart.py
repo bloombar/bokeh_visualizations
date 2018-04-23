@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bokeh.charts import Donut, show, output_file
 import pandas as pd
 
@@ -16,7 +18,7 @@ data = pd.Series(data)
 pie_chart = Donut(data)
 
 # output to static HTML file. 
-output_file("pie.html", mode="inline")
+output_file("3.pie_chart.html", mode="inline")
 
 #pop open in the browser
 show(pie_chart)
