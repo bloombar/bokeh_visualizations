@@ -23,4 +23,8 @@ plot.line(x, y_2015, legend="2015 average temperature", line_color="red", line_w
 output_file("1.line_chart_with_two_lines", mode="inline")
 
 # show this figure in the default web browser
+<<<<<<< HEAD
 show(plot)
+=======
+show(plot)
+>>>>>>> 5ad9d955631825bac5fbbcd6d0533c1c24597126
