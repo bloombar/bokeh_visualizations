@@ -21,8 +21,8 @@ x = [0, 1, 2, 2.5, 3, 4.5]
 y = [1, 0, 0, 4, 1, 3]
 plot.line(x, y, line_color="#f8ce3a", line_width=10 )
 
-# save to a file
-output_file('image.html')
- 
-# pop open the web browser
-show(plot)
+24 # save to a file
+25 output_file('image.html')
+26 
+27 # pop open the web browser
+28 show(plot)
