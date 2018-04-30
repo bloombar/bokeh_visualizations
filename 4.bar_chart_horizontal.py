@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bokeh.plotting import figure, output_file, show
 
 # prepare some data
@@ -14,7 +16,7 @@ plot = figure(title="Example of a horizontal bar chart")
 plot.hbar(y, left=0, right=bar_lengths, height=0.5, color="#CAB2D6")
 
 # output to static HTML file. 
-output_file("horizontal_bar.html", mode="inline")
+output_file("4.bar_chart_horizontal.html", mode="inline")
 
 #pop open in the browser
 show(plot)
